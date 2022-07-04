@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <sdlib.h>
+#include <stdlib.h>
 /**
  * main - print all letters of the alphabeth in lower case
  * Return: 0 if successful
@@ -9,7 +9,7 @@ int main(void)
 	char var;
 	char var1;
 
-	for (var = 'a'; var <= 'z'z; var++)
+	for (var = 'a'; var <= 'z'; var++)
 	{
 		putchar(var);
 	}
