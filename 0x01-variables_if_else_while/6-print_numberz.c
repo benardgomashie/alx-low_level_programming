@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * mian - numbers printer
+ * main - numbers printer
  * Return: 0 is successful
  */
 int main(void)
