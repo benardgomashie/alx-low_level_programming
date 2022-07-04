@@ -1,6 +1,6 @@
  #include <stdio.h>
 /**
- * main - output all single digit number of base 10 
+ * main - output all single digit number of base 10
  * Return: 0 if successful
  */
 int main(void)
