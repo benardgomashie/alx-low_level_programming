@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+ * add - add 2 int
  * @var1: first integer
  * @var2: second integer
  * Return: the integer sum of var1 and var2
