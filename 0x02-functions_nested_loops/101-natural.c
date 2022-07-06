@@ -1,47 +1,17 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
- * print - function to print recursively using _putchar
- * @var: variable to be printed
+ * main - find sum of multiples of 3 and 5 less than 1024
+ * Return: 0 if successful
  */
-void print(int var)
+int main(void)
 {
-	if (var / 10)
-		print(var / 10);
-	_putchar('0' + (var % 10));
-}
-/**
- * print_times_table - prints the n times table, starting with 0
- * @n: time table to print
- */
+	int ii, _sum;
 
-void print_times_table(int n)
-{
-	int ii, jj, mul;
-
-	if (n < 0 || n > 15)
-		return;
-	for (ii = 0; ii <= n; ii++)
+	for (ii = 3; ii < 1024; ii++)
 	{
-		for (jj = 0; jj <= n; jj++)
-		{
-			mul = ii * jj;
-			if (jj == 0)
-				_putchar('0' + mul);
-			else if (mul < 10)
-			{
-				_putchar(' ');
-				_putchar(' ');
-				_putchar('0' + mul);
-			}
-			else if (mul < 100)
-			{
-				_putchar(' ');
-				print(mul);
-			}
-				else
-			{
-				print(mul);
-			}
-			if (jj < n)
-			{
+		if (ii % 3 == 0 || ii % 5 == 0)
+			_sum += ii;
+	}
+	printf("%d\n", _sum);
+	return (0);
+}
