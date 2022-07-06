@@ -2,10 +2,13 @@
 /**
  * print_to_98 - print all natural numbers from var to 98
  * print - print recursively using _putchar
- * @n: variable to print
  * @var: the starting limit
  */
 void print(int n);
+/**
+ * @n: variable to print
+ */
+
 void print_to_98(int var)
 {
 	int stopLimit = 98;
