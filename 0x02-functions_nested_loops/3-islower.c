@@ -1,10 +1,10 @@
-#include <main.h>
+#include "main.h"
 /**
- * int _islower(int c) - main function
+ *_islower - main function
  * @c: needed check
  * Return: void
  */
-int _islower(int c);
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);
