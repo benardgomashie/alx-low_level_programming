@@ -2,7 +2,7 @@
 /**
  * print_sign - sign printer
  * @n: the variable to be checked
- * return: 1 is green
+ * Return: 1 0 or -1 is green
  */
 int print_sign(int n)
 {
