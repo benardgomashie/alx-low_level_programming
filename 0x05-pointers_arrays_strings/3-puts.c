@@ -7,12 +7,5 @@
 
 void _puts(char *str)
 {
-	int i = 0;
-
-	while (str[i])
-	{
-		printf(str[i]);
-		i++;
-	}
-	printf('\n');
+	printf("%s\n", str);
 }
