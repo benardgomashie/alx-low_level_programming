@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * main - main function for returning assigned value
- * @n - variable
+ * reset_to_98 - main function for returning assigned value
+ * @n: variable pointer
  * Return: 0
  */
 void reset_to_98(int *n)
