@@ -9,11 +9,10 @@ void _puts(char *str)
 {
 	int i = 0;
 
-	while (str[i]);
+	while (str[i])
 	{
 		printf(str[i]);
 		i++;
 	}
-	printf('\n')
+	printf('\n');
 }
-
