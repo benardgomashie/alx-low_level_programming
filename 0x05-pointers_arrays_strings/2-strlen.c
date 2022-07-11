@@ -3,11 +3,19 @@
 /**
  * _strlen  - returns the lenth of the string
  * @s: string to be counted
- * Return: void
+ * Return: len of str
  */
 
 int _strlen(char *s)
 {
-	char s[];
-	strlen(s);
+	int i = 0;
+
+	while (*s != '\0')
+	{
+		i++;
+		s++;
+	}
+
+	return (i);
+
 }
