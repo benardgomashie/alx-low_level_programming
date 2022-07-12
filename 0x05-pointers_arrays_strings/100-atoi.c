@@ -21,61 +21,34 @@ int _atoi(char *s)
 	neg = 1;
 	num = 0;
 
-
 	while (s[len] != '\0')
-
 	{
-
 		if (s[len] >= '0' && s[len] <= '9')
-
 		{
-
 			numcount++;
-
 			if (!(s[len + 1] >= '0' && s[len + 1] <= '9'))
-
 				break;
-
 		}
-
 		len++;
-
 	}
-
-
 
 	for (; numcount > 1; numcount--)
 
 	{
-
 		mult *= 10;
-
 	}
-
-
 
 	for (; x <= len; x++)
 
 	{
-
 		if (s[x] == '-')
-
 			neg *= -1;
-
 		else if (s[x] <= '9' && s[x] >= '0')
-
 		{
-
 			num += (s[x] - '0') * mult * neg;
-
 			mult /= 10;
-
 		}
-
 	}
 
-
-
 	return (num);
-
 }
