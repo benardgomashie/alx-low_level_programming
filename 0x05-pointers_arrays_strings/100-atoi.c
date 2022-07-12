@@ -6,10 +6,10 @@
  * Return: integers in a string
  */
 
-
 int _atoi(char *s)
 {
 	int num, len, numcount, mult, x, neg;
+
 	len = 0;
 	x = 0;
 	numcount = 0;
