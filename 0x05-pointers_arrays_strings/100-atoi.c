@@ -9,11 +9,7 @@
 
 int _atoi(char *s)
 {
-
 	int num, len, numcount, mult, x, neg;
-
-
-
 	len = 0;
 	x = 0;
 	numcount = 0;
@@ -31,15 +27,11 @@ int _atoi(char *s)
 		}
 		len++;
 	}
-
 	for (; numcount > 1; numcount--)
-
 	{
 		mult *= 10;
 	}
-
 	for (; x <= len; x++)
-
 	{
 		if (s[x] == '-')
 			neg *= -1;
