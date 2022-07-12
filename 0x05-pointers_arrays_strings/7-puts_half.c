@@ -2,7 +2,7 @@
 
 /**
  * puts_half - main function
- * @str
+ * @str: string var
  * Return: void
  */
 
