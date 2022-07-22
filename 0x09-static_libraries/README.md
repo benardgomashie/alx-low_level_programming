@@ -1,1 +1,1 @@
-lib read me needed
+static libraries
